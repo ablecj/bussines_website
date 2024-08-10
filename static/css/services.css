@@ -25,7 +25,7 @@
     color: #ffffff;
 }
 .services_head_title p{
-    margin-top: 30px;
+   margin-top: 15px;
     color: #ffffff;
     
 }
@@ -102,5 +102,37 @@
 }
 
 
+
+@media (max-width: 567px) {
+  .services_head_title{
+    margin-top: 25% !important;
+  } 
+  .services_head_title p {
+    margin-top: 0px;
+  }
+  .content_section h2 {
+    font-size: 2rem;
+  }
+  .content_section p {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .services_head_title{
+    margin-top: 15% !important;
+   
+  } 
+  .services_head_title p {
+    margin-top: 15px;
+  }
+  .content_section h2 {
+    font-size: 2.5rem;
+  }
+  .content_section p {
+    font-size: 1rem;
+  }
+}
 
 

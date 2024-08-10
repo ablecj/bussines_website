@@ -6,14 +6,13 @@
     margin: 0 !important;
     height: auto;
     background-color: #F9DBBA;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
-.testmonial_cont{
+.testimonial_cont{
     margin: 0 !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    margin-top: 5% !important;
-   
+    margin-top: 10% !important;
     display: flex;
     justify-content: center;
 }
@@ -93,7 +92,17 @@
     border-radius: 10px;
 }
 
+@media (max-width: 992px){
+    .testimonial_title{
+        font-size: 3rem;
+    }
+}
 
+@media (max-width: 567px) {
+    .testimonial_title{
+        font-size: 2.5rem;
+    }
+}
 
 
 

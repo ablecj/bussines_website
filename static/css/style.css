@@ -189,3 +189,16 @@ body{
 }
 
 
+
+/* mobile view */
+@media (max-width: 992px) {
+    .image_titile{
+        font-size: 2.5rem;
+    }
+    .home_cont_title{
+        font-size: 2.2rem;
+    }
+  }
+  
+
+

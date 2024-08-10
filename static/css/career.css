@@ -184,6 +184,30 @@
     opacity: .70;
 }
 
+@media (max-width: 992px){
+    .image_title_cont h1{
+        font-size: 2.3rem;
+    }
 
+    .career_content_title h2 {
+        font-size: 3rem;
+    }
+    .career_content_title p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 567px) {
+    .image_title_cont h1 {
+        font-size: 2.5rem;
+    }
+
+    .career_content_title h2 {
+        font-size: 2.5rem;
+    }
+    .career_content_title p{
+        font-size: 1rem;
+    }
+}
 
 

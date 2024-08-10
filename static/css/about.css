@@ -335,9 +335,33 @@
     font-size: 1.2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .about_page_title{
+        font-size: 2.5rem;
+        margin-top: 40px !important;
+    }
+
+    .our_impact_cont h3 {
+        font-size: 3.5rem;
+    }
+
+    .impact1 h3 {
         font-size: 2rem;
+    }
+    .impact1 p{
+        font-size: 1rem;
+    }
+    .impact2 h3 {
+        font-size: 2rem;
+    }
+    .impact2 p {
+        font-size: 1rem;
+    }
+    .impact3 h3 {
+        font-size: 2rem;
+    }
+    .impact3 p {
+        font-size: 1rem;
     }
 }
 
