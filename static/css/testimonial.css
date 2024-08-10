@@ -1,0 +1,100 @@
+.navbar_continer{
+    height: 74px;
+}
+
+.testimonial_container{
+    margin: 0 !important;
+    height: auto;
+    background-color: #F9DBBA;
+    padding-bottom: 30px;
+}
+.testmonial_cont{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 5% !important;
+   
+    display: flex;
+    justify-content: center;
+}
+.testimonial_title{
+    width: fit-content !important;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: #1F316F;
+}
+/* test_card_cont */
+.test_card_cont{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 5% !important;
+    height: auto;
+
+}
+.test_card_container{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-radius: 5px !important;
+    background-color: #fff;
+
+}
+.image_cont{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.image_cont img{
+    object-fit: cover !important;
+    height: 300px !important;
+    margin-top: 20px !important;
+}
+.test_card_content{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 20px !important;
+
+}
+
+.test_card_content h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1F316F;
+}
+.test_card_content p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #1F316F;
+}
+
+/* career_link */
+.career_link{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 20px;
+}
+.career_link a {
+    width: fit-content;
+    text-decoration: none;
+    background-color: #1F316F;
+    color: #fff;
+    padding: 10px;
+    margin-left: 20px;
+}
+.career_link a:hover {
+    opacity: .70;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+
+
+
+

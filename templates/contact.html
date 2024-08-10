@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/contact.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "eDPZm2RbAA0jkH4V6",
+        });
+      })();
+    </script>
+  </head>
+  <body onload="includeHTML()">
+    <div class="container-fluid p-0">
+      <!-- navbar -->
+      <div include-html="/templates/navbar.html" class="navbar_continer"></div>
+
+      <div class="row contactus_container">
+        <div class="row contactus_cont_container">
+          <h1>Contact Us</h1>
+        </div>
+        <!-- form container -->
+        <div class="row form_container">
+          <!-- first section -->
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="row form_content_section">
+              <h2>Discover Digital Transformation</h2>
+              <p>
+                Please feel free to share your thoughts and we can discuss it
+                over a cup of tea.
+              </p>
+            </div>
+          </div>
+          <!-- second section -->
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="row form_section">
+              <form id="contactForm">
+                <div class="form-group">
+                  <label for="name">First Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter your first name"
+                    autocomplete="name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    placeholder="Enter your last name"
+                    autocomplete="lastName"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter your email"
+                    autocomplete="email"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Write your message here"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary form_btn" onclick="sendMail(event)">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row form_last_section">
+          <div class="row oru_locations">
+            <h3>OUR LOCATION</h3>
+          </div>
+          <div class="row location_container">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+              <div class="row location_img">
+                <img src="/static/images/officeimg.jpg" alt="officeimg" />
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+              <div class="row location_contnent">
+                <p>
+                  Brands is a leading IT solutions provider, dedicated to
+                  delivering innovative and customized technology services that
+                  drive business success. With a team of experienced
+                  professionals, we offer a comprehensive range of IT services
+                  including software development, IT consulting, cloud
+                  solutions, cybersecurity, and managed IT services.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row social_link">
+            <div class="row social_link_cont">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-6 github">
+                <!-- GitHub Icon -->
+                <a
+                  href="https://github.com/ablecj"
+                  target="_blank"
+                  class="text-dark"
+                >
+                  <i class="fab fa-github fa-2x"></i>
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-6 insta">
+                <!-- Instagram Icon -->
+                <a
+                  href="https://www.linkedin.com/in/able-c-j-683303251/"
+                  target="_blank"
+                  class="text-dark"
+                >
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../static/js/jquery-3.6.0.min.js"></script>
+    <script src="../static/js/controller.js"></script>
+  </body>
+</html>

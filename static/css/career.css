@@ -1,0 +1,189 @@
+.navbar_continer{
+    height: 74px;
+}
+
+.career_container {
+    margin: 0 !important;
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)),
+      url("../images/career.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image_title_cont{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 10% !important;
+    height: auto;
+    /* width: 50% !important; */
+    display: flex;
+    justify-content: center;
+}
+.image_title_cont h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.image_title_cont p{
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* career_content_sec */
+.career_content_sec{
+    height: auto;
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background-color: #fff;
+
+}
+.career_content_title{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    /* width: 50% !important; */
+    display: flex;
+    justify-content: center;
+    margin-top: 35px !important;
+}
+.career_content_title h2{
+    display: flex;
+    justify-content: center;
+    color: #1F316F;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.career_content_title p{
+    display: flex;
+    justify-content: center;
+    color: #1F316F;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* career_img_section */
+.career_img_section{
+    margin:  0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: auto;
+    padding-bottom: 20px;
+    margin-top: 25px !important;
+    background-color: #fff;
+}
+.first_img{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.groupphoto{
+    height: 200px;
+}
+.events{
+    height: 200px;
+}
+.event2{
+    height: 200px; 
+}
+.officesports{
+    height: 200px;   
+}
+/* second_img */
+.second_img{
+    margin-top: 40px !important;
+}
+.officesport2{
+    height: 200px;
+}
+/* oppertunity */
+.oppertunity{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 40px !important;
+    background-color: #fff;
+    height: auto;
+    padding-bottom: 20px;
+}
+.growth_cont{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 50px !important;
+
+}
+.growth_cont h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-size: 600;
+    color: #1F316F;
+}
+.growth_cont p{
+    width: 90% !important;
+    margin-top: 5px !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: #1F316F;
+    font-weight: 400;
+}
+.sec_row_cont{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 50px !important;
+}
+.sec_row_cont h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-size: 600;
+    color: #1F316F;
+}
+.sec_row_cont p{
+    width: 90% !important;
+    margin-top: 5px !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: #1F316F;
+    font-weight: 400;
+}
+
+/* contactus_link */
+.contactus_link{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-bottom: 20px;
+}
+
+.contactus_link a {
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 20px !important;
+    width: fit-content;
+    background-color: #1F316F;
+    color: #fff;
+}
+
+.contactus_link a:hover{
+    color: #fff;
+    border-radius: 5px;
+    opacity: .70;
+}
+
+
+
+

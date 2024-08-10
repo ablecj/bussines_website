@@ -1,0 +1,191 @@
+body{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.navbar_continer{
+    height: 74px;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.navbar{
+    background-color: #70bbec;
+    position: fixed;
+}
+.navbar-brand{
+    color: black !important;
+    margin-left: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+/* links */
+.nav-link_home{
+    color: black !important;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav-link_home:hover{
+    cursor: pointer;
+    color: rgb(141, 141, 141) !important;
+}
+.nav-link_about{
+    color: black !important;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav-link_about:hover{
+    cursor: pointer;
+    color: rgb(141, 141, 141) !important;
+}
+.nav-link_services{
+    color: black !important;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav-link_services:hover{
+    cursor: pointer;
+    color: rgb(141, 141, 141) !important;
+}
+.nav-link_contact{
+    color: black !important;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav-link_contact:hover{
+    cursor: pointer;
+    color: rgb(141, 141, 141) !important;   
+}
+.nav-item{
+    margin: 5px;
+}
+
+
+/* button toggler */
+.navbar-toggler{
+    margin-right: 10px;
+    border: 2px solid #ebebeb !important;
+}
+
+/* home page */
+.home_page{
+    margin: 0 !important;
+    height: auto;
+}
+.home_page_img{
+    margin: 0 !important;
+    height: 88vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)),
+      url("../images/firstimage.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home_page_img_cont{
+    margin-top: 10%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+}
+.image_titile{
+    color: #faf4ed;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* home_content */
+.home_content{
+    height: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background-color: #F9DBBA;
+    padding-bottom: 20px;
+}
+.home_cont_contain{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 3rem;
+}
+.home_cont_title{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1F316F;
+    width: fit-content;
+}
+.home_card_container{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: auto; /*make it auto */
+    margin-top: 50px;
+    padding-bottom: 30px;
+    
+}
+.card_container{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.card_container img{
+    object-fit: cover;
+    margin-top: 10px;
+    height: 200px; /* Set a fixed height for all images */
+    width: 100%;
+    
+}
+.card_content{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+.card_content h3{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: #1F316F;
+    
+}
+.card_content p{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    color: #1F316F;
+}
+.aboutus_link{
+   text-decoration: none;
+   background-color: #1F316F;
+   width: fit-content;
+   padding: 10px;
+   border-radius: 5px;
+   margin-left: 25px;
+   color: #fff;
+}
+.aboutus_link:hover{
+    opacity: .70;
+    color: #fff;
+}
+
+

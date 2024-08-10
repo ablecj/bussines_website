@@ -1,0 +1,165 @@
+.navbar_continer{
+    height: 74px;
+}
+
+.contactus_container{
+    margin: 0 !important;
+    height: auto;
+    background-color: #F9DBBA;
+
+}
+.contactus_cont_container{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 20px !important;
+    
+    height: fit-content;
+}
+.contactus_cont_container h1 {
+    display: flex;
+    justify-content: center;
+    color:#1F316F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+/* form_container */
+.form_container{
+    margin:  0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 20px !important;
+    
+
+}
+
+.form_content_section{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 100px !important;
+    display: flex;
+    justify-content: center;
+
+}
+.form_content_section h2{
+   font-size: 2rem;
+   font-weight: 700;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #1F316F;
+   width: fit-content;
+   
+}
+.form_content_section p {
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    color: #1F316F;
+    width: fit-content;
+}
+.form_section{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 20px !important;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+.form-group{
+    padding: 5px;
+}
+.form_btn{
+    margin-top: 15px;
+}
+.form_last_section {
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: auto;
+    padding-bottom: 20px;
+}
+.oru_locations{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 30px !important;
+   
+}
+.oru_locations h3{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: #1F316F;
+}
+/* location_container */
+.location_container{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 50px !important;
+}
+.location_img{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.location_img img {
+    object-fit: cover;
+
+}
+/* location_contnent */
+.location_contnent {
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    justify-content: center;
+}
+.location_contnent p {
+    margin-top: 60px;
+    width: 80%;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: #1F316F;
+   
+
+}
+/* social_link */
+.social_link{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 40px !important;
+}
+.social_link_cont{
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50%;
+
+}
+.github{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

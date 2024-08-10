@@ -1,0 +1,106 @@
+.navbar_continer{
+  height: 74px;
+}
+
+.services_img {
+  margin: 0 !important;
+  height: 90vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)),
+    url("../images/services.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.services_head_title{
+    width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: fit-content;
+    margin-top: 10% !important;
+
+}
+.services_head_title h1{
+    color: #ffffff;
+}
+.services_head_title p{
+    margin-top: 30px;
+    color: #ffffff;
+    
+}
+/* content section */
+.service_cont_container{
+  height: auto;
+  margin: 0 !important;
+  padding-bottom: 5%;
+  background-color: #ffffff;
+}
+.content_section{
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 15% !important;
+  width: 80%;
+}
+.content_section h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+  color: #1F316F;
+}
+.content_section p{
+  width: 70%;
+  margin-top: 20px;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #1F316F;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image_container{
+  width: 80%;
+  margin-top: 10% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  
+}
+/* technology_cont_container */
+.technology_cont_container{
+  height: auto;
+  margin: 0 !important;
+  padding-bottom: 5%;
+  background-color: #ffffff;
+}
+/* digi_mark_cont_container */
+.digi_mark_cont_container{
+  height: auto;
+  margin: 0 !important;
+  padding-bottom: 5%;
+  background-color: #ffffff;
+}
+/* branding_container */
+.branding_container{
+  height: auto;
+  margin: 0 !important;
+  padding-bottom: 5%;
+  background-color: #ffffff;
+}
+/* link */
+.link_container{
+  margin: 0 !important;
+  padding: 20px;
+}
+.link_container a {
+  text-decoration: none;
+  padding: 10px;
+  width: fit-content;
+  background-color: #1F316F;
+  color: #ffffff;
+}
+.link_container a:hover {
+  color: #ffffff; 
+  opacity: .70;
+  border-radius: 5px;
+}
+
+
+
+
