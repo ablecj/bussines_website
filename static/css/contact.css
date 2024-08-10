@@ -115,14 +115,14 @@
 
 }
 /* location_contnent */
-.location_contnent {
+.location_content {
     margin: 0 !important;
     margin-left: auto !important;
     margin-right: auto !important;
     display: flex;
     justify-content: center;
 }
-.location_contnent p {
+.location_content p {
     margin-top: 60px;
     width: 80%;
     font-size: 1.2rem;
@@ -151,8 +151,30 @@
     justify-content: flex-end;
 }
 
+@media (max-width: 992px) {
+    .contactus_cont_container{
+        margin-top: 15px !important;
+    }
+    .contactus_cont_container h1{
+        font-size: 2.5rem;
+    }
+    .our_locations h3{
+        font-size: 2.5rem;
+    }
+}
 
+@media (max-width: 567px) {
+    .contactus_cont_container{
+        margin-top: 25px !important;
+    }
+    .contactus_cont_container h1{
+        font-size: 2.2rem;
+    }
 
+    .our_locations h3{
+        font-size: 2rem;
+    }
+}
 
 
 
