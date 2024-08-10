@@ -4,7 +4,7 @@ body{
 }
 
 .navbar_continer{
-    height: 74px;
+    height: 74px !important;
 }
 
 .navbar-collapse{
@@ -192,6 +192,15 @@ body{
 
 /* mobile view */
 @media (max-width: 992px) {
+    .image_titile{
+        font-size: 2.5rem;
+    }
+    .home_cont_title{
+        font-size: 2.2rem;
+    }
+  }
+/* mobile view */
+@media (max-width: 567px) {
     .image_titile{
         font-size: 2.5rem;
     }
