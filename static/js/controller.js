@@ -51,7 +51,7 @@ function sendMail(event) {
         function (response) {
           showMessage("Message sent successfully!");
           // Optional: You may want to reset the form or take other actions
-          // location.reload(); // Consider removing this if you don't want to reload the page
+          location.reload(); // Consider removing this if you don't want to reload the page
         },
         function (error) {
           showMessage("Failed to send message. Please try again.");
@@ -68,7 +68,7 @@ function sendMail(event) {
   }
 
   function showMessage(message) {
-    $('#feedbackMessage').textContent = message;
+    document.getElementById('feedbackMessage').textContent = message;
   }
   
   function validateName(name) {
