@@ -76,6 +76,13 @@
 .form_btn{
     margin-top: 15px;
 }
+
+.feedbackMessage{
+    margin-top: 5px !important;
+    color: red;
+    font-size: .8rem;
+}
+
 .form_last_section {
     margin: 0 !important;
     margin-left: auto !important;
