@@ -7,7 +7,7 @@
     height: 90vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)),
-      url("../images/career.webp");
+                      url("../images/career-1200w.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -185,6 +185,10 @@
 }
 
 @media (max-width: 992px){
+    .career_container {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)),
+                          url("../images/career-1200w.webp");
+    }
     .image_title_cont h1{
         font-size: 2.3rem;
     }
@@ -198,6 +202,10 @@
 }
 
 @media (max-width: 567px) {
+    .career_container {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)),
+                          url("../images/career-480w.webp");
+    }
     .image_title_cont h1 {
         font-size: 2.5rem;
     }

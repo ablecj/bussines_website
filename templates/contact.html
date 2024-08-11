@@ -30,7 +30,10 @@
   <body onload="includeHTML()">
     <div class="container-fluid p-0">
       <!-- navbar -->
-      <div include-html="/bussines_website/templates/navbar.html" class="navbar_container"></div>
+      <div
+        include-html="/bussines_website/templates/navbar.html"
+        class="navbar_container"
+      ></div>
 
       <div class="row contactus_container">
         <div class="row contactus_cont_container">
@@ -91,7 +94,11 @@
                     placeholder="Write your message here"
                   ></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary form_btn" onclick="sendMail(event)">
+                <button
+                  type="submit"
+                  class="btn btn-primary form_btn"
+                  onclick="sendMail(event)"
+                >
                   Submit
                 </button>
               </form>
@@ -105,7 +112,18 @@
           <div class="row location_container">
             <div class="col-lg-4 col-md-4 col-sm-12 col-12">
               <div class="row location_img">
-                <img src="/bussines_website/static/images/officeimg.webp" alt="officeimg" />
+                <img
+                  src="/bussines_website/static/images/officeimg.webp"
+                  srcset="
+                    /bussines_website/static/images/officeimg-480w.webp   480w,
+                    /bussines_website/static/images/officeimg-800w.webp   800w,
+                    /bussines_website/static/images/officeimg-1200w.webp 1200w
+                  "
+                  sizes="(max-width: 600px) 480px, 
+         (max-width: 1024px) 800px, 
+         1200px"
+                  alt="officeimg"
+                />
               </div>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 col-12 mt-2">
