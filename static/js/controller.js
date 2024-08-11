@@ -49,26 +49,21 @@ function sendMail(event) {
     if (validateName(name) && validateEmail(email)) {
       emailjs.send("service_fdf827a", "template_nml1v37", params).then(
         function (response) {
-          showMessage("Message sent successfully!");
-          // Optional: You may want to reset the form or take other actions
-          location.reload(); // Consider removing this if you don't want to reload the page
+          alert("Message sent successfully!");
+          location.reload();
         },
         function (error) {
-          showMessage("Failed to send message. Please try again.");
+          alert("Failed to send message. Please try again.");
         }
       );
     } else {
-      if (!validateEmail(email)) {
-        showMessage("Please enter a valid email address.");
-      } else if (!validateName(name)) {
-        showMessage("Please enter a valid name.");
+      if (validateName(name)) {
+        alert("Please enter a valid email address.");
+      } else {
+        alert("Please enter a valid name.");
       }
     }
     
-  }
-
-  function showMessage(message) {
-    document.getElementById('feedbackMessage').textContent = message;
   }
   
   function validateName(name) {
