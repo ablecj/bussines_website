@@ -6,6 +6,8 @@ $(document).ready(function() {
             $('#navbarNav').toggleClass('show');
         });
     });
+
+    document.getElementById("contactForm").addEventListener("submit", sendMail);
 });
 
 // Function for including HTML
@@ -76,4 +78,3 @@ function sendMail(event) {
     return emailPattern.test(email);
   }
   
-  document.getElementById("contactForm").addEventListener("submit", sendMail);
