@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  emailjs.init("eDPZm2RbAA0jkH4V6"); 
+  
     includeHTML(function() {
         // Reinitialize the navbar toggler functionality after loading HTML
         $('.navbar-toggler').click(function() {
