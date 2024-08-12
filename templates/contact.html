@@ -37,17 +37,7 @@
     />
   </noscript>
 
-    <script
-    defer
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-  ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init({
-          publicKey: "eDPZm2RbAA0jkH4V6",
-        });
-      })();
-    </script>
+   
   </head>
   <body onload="includeHTML()">
     <div class="container-fluid p-0">
@@ -172,6 +162,17 @@
       </div>
     </div>
 
+    <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+  ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "eDPZm2RbAA0jkH4V6",
+        });
+      })();
+    </script>
     <script src="/bussines_website/static/js/jquery-3.6.0.min.js" defer></script>
     <script src="/bussines_website/static/js/controller.js" defer></script>
   </body>
