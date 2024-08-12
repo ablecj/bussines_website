@@ -1,6 +1,6 @@
 $(document).ready(function() {
   emailjs.init("eDPZm2RbAA0jkH4V6"); 
-  
+
     includeHTML(function() {
         // Reinitialize the navbar toggler functionality after loading HTML
         $('.navbar-toggler').click(function() {
@@ -47,23 +47,28 @@ function sendMail(event) {
     //   subject: document.getElementById("subject").value,
       message: document.getElementById("message").value,
     };
+
+    var messageElement = document.getElementById("formMessage");
   
     if (validateName(name) && validateEmail(email)) {
       emailjs.send("service_fdf827a", "template_nml1v37", params).then(
         function (response) {
-          alert("Message sent successfully!");
-          location.reload();
+          messageElement.textContent = "Message sent successfully!";
+          messageElement.style.color = "green"; // Set the text color to green for success
+          document.getElementById("contactForm").reset();
         },
         function (error) {
-          alert("Failed to send message. Please try again.");
+          messageElement.textContent = "Failed to send message. Please try again.";
+          messageElement.style.color = "red";
         }
       );
     } else {
       if (validateName(name)) {
-        alert("Please enter a valid email address.");
+        messageElement.textContent = "Please enter a valid name.";
       } else {
-        alert("Please enter a valid name.");
+        messageElement.textContent = "Please enter a valid email address.";
       }
+      messageElement.style.color = "red";
     }
     
   }
